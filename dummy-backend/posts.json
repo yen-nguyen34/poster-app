@@ -1,0 +1,39 @@
+{
+    "posts": [
+        {
+            "text": "Learn Git",
+            "author": "Nhung",
+            "id": "0.7235973152570754"
+        },
+        {
+            "text": "Learn Python",
+            "author": "SUZY",
+            "id": "0.6511271402682088"
+        },
+        {
+            "text": "Learn PHP",
+            "author": "Sunnty",
+            "id": "0.5654900820364712"
+        },
+        {
+            "text": "Learn C++",
+            "author": "Jack",
+            "id": "0.37520591762297983"
+        },
+        {
+            "text": "heeelooo",
+            "author": "johnnnn",
+            "id": "0.3145923001362563"
+        },
+        {
+            "text": "learn react",
+            "author": "annnnnna",
+            "id": "0.42282225377672633"
+        },
+        {
+            "text": "learn JavaScript",
+            "author": "Anna Nguyen",
+            "id": "0.25346869043919384"
+        }
+    ]
+}
