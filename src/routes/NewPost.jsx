@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import classes from "./NewPost.module.css";
 
-export default function NewPost({ onClose, onAddPost }) {
+export default function NewPost({ onAddPost }) {
   const [bodyData, setBodyData] = useState("");
   const [authorData, setAuthorData] = useState("");
 
@@ -20,7 +20,6 @@ export default function NewPost({ onClose, onAddPost }) {
       author: authorData,
     };
     onAddPost(postData);
-    onClose();
     console.log(postData);
   };
 
@@ -35,9 +34,7 @@ export default function NewPost({ onClose, onAddPost }) {
         <input id="author" type="text" required onChange={handleAuthorChange} />
       </p>
       <p className={classes.actions}>
-        <button type="button" onClick={onClose}>
-          Cancel
-        </button>
+        <button type="button">Cancel</button>
         <button>Submit</button>
       </p>
     </form>
